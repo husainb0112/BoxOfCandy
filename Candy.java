@@ -1,9 +1,15 @@
 public class Candy {
+    private String flavor;
 
-    /** Returns a String representing the flavor of this piece of candy */
+    public Candy(String flavor) {
+        this.flavor = flavor;
+    }
+
     public String getFlavor() {
-        /* implementation not shown */ }
+        return flavor;
+    }
 
-    // There may be instance variables, constructors, and methods that are not
-    // shown.
+    public String toString() {
+        return flavor;
+    }
 }
